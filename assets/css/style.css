@@ -1,0 +1,398 @@
+
+
+.BDH{
+    font-size: 45px;
+    color:black;
+    float: left;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPk19tCcHAd95g062KH9MWmxTFUeTja9IrbjRz5flryD64r8HfVw");
+    border:dotted  black 2px;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.top{
+    background-color:seashell;
+    height: 150px;
+    margin:10px 100px 10px 100px;
+    padding:20px;
+    border: dotted grey 2px;
+    border-radius: 50px;
+}
+.top::after{
+    
+    clear:both;
+}
+.links{
+    float:right;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: aqua;
+   
+
+}
+.about{
+    border-right: solid grey 1px;
+    padding-right: 10px;
+    margin-right: 5px;
+    text-decoration-line: none;
+}
+.about:hover , .about:active
+{
+    color:red;
+}
+
+.portfolio{
+    border-right:solid grey 1px;
+   padding-right: 10px;
+   text-decoration-line: none;
+}
+.portfolio:hover,.portfolio:active{
+    color: red;
+}
+
+.contact{
+    padding-left: 10px;
+    text-decoration-line: none;
+}
+.contact:hover,.contact:active{
+    color: red;
+}
+
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuQchztCVkkv0OVtDiGBTzwKPSJHHRO0kj4M19QAAO4aEGuOzR");
+   background-color: #eeeeee;
+   
+   
+}
+
+.aboutMe{
+    clear:left;
+    position: static;
+    text-align: center;
+    top:100px;
+    left: 10px;
+    font-style: oblique;
+   
+}
+.myPic{
+   float:left;
+   margin:20px;
+   border: dashed rgba(90, 88, 88, 0.329) 2px;
+   padding: 2px;
+   border-radius: 100px;
+   
+}
+.p{
+    float: left;
+    border: dashed grey 2px;
+    margin:20px 100px 20px 100px;
+    padding: 20px;
+    background-color:blanchedalmond;
+    border-radius: 50px;
+}
+.p1{
+    font-size: 30px;
+    font-family: monospace;
+    border-top:solid black 2px;
+}
+#message{
+    height: 200px;
+}
+.form{
+    width:1100px;
+    float:left;
+    padding: 20px;
+    margin:20px 50px 30px 75px;
+    padding:40px;
+    border: dotted grey 5px;
+    background-color:blanchedalmond;
+    border-radius: 50px;
+
+}
+.ct{
+    position: static;
+    text-align: center;
+    top:100px;
+    clear:left;
+    font-family: Verdana, Geneva;
+    color:rgb(250, 250, 250);
+    text-decoration-line: underline;
+}
+.ctName{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+option{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ctMessage{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ps1{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#sub:hover{
+    border-radius: 50px;
+}
+.Pfolio{
+    position: relative;
+    left: 350px;
+    font-style: oblique ;
+    text-decoration-line: underline;
+}
+.pf1{
+    position: absolute;
+    left:10px;
+    float: left;
+    top: 80px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.pf2{
+    position: absolute;
+    left:10px;
+    float: left;
+    top: 80px;
+    margin: 10px;
+    left: 200px;
+    border-radius: 200px;
+}
+.pf3{
+    position: absolute;
+    left:10px;
+    float: left;
+    top: 250px;
+    margin: 10px;
+    left: 10px;
+    border-radius: 50px;
+}
+.pf4{
+    position: absolute;
+    left:10px;
+    float: left;
+    top: 250px;
+    margin: 10px;
+    left: 200px;
+    border:double blue 2px;
+}
+.pf5{
+    position: absolute;
+    left:10px;
+    float: left;
+    bottom: 30px;
+    margin: 20px;
+    left:10px;
+}
+.ppf1{ 
+    position: relative; 
+    background-color: chartreuse;
+    width: 148px;
+    left:10px;
+    top: 125px;
+    text-align: center;
+    border: double red 1px;
+    border-radius: 15px;
+}
+.ppf2{
+    position: relative;
+    top: 75px;
+    left:240px;
+    text-align: center;
+    border: double white 1px;
+    border-radius: 15px;
+    width: 75px;
+    background-color: transparent;
+    color: steelblue
+}
+.ppf3{
+    position: relative;
+    top: 200px;
+    left:50px;
+    text-align: center;
+    border: dotted rgb(3, 3, 3) 2px;
+    border-radius: 100px;
+    width: 75px;
+    background-color: sandybrown;
+}
+.ppf4{
+    position: relative;
+    top:150px;
+    left:220px;
+    font-family: fantasy;
+    font-size: 30px;
+    color: aquamarine;
+}
+.ppf5{
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 40px;
+}
+
+
+.pbody{
+   
+    position: relative;
+    border: dashed grey 2px;
+    margin:20px 100px 20px 100px;
+    padding: 5px;
+    background-color: blanchedalmond;
+    border-radius: 50px;
+    height:600px;
+   
+
+}
+#fName{
+    width: 100%;
+    height: 20px;
+}
+#fBrower{
+    width: 100%;
+    height: 20px;
+}
+#fmessage{
+    width: 100%;
+    height: 75px;
+}
+
+
+footer{
+    color:red;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    margin: 1px 20px 1px 20px;
+    bottom: 20px;
+}
+@media screen and (max-width:980px)
+{
+    .BDH{
+        font-size: 45px;
+        color:black;
+        float: left;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPk19tCcHAd95g062KH9MWmxTFUeTja9IrbjRz5flryD64r8HfVw");
+        border:dotted  black 2px;
+        border-radius: 50px;
+        margin: 20px;
+        padding: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    .form{
+        width:800px;
+       
+        padding: 20px;
+        margin:10px 75px 20px 35px;
+        
+    
+    }
+   
+}
+@media screen and (max-width:768px)
+{
+    .BDH{
+        font-size: 35px;
+        color:black;
+        float: left;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPk19tCcHAd95g062KH9MWmxTFUeTja9IrbjRz5flryD64r8HfVw");
+        border:dotted  black 2px;
+        border-radius: 50px;
+        margin: 10px;
+        padding: 10px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    .pbody{
+        overflow: auto;
+        position: relative;
+        border: dashed grey 2px;
+        margin:10px 50px 10px 50px;
+        padding: 5px;
+        background-color: blanchedalmond;
+        border-radius: 50px;
+        height:600px;
+       
+    
+    }
+    .top{
+        background-color:seashell;
+        height: 150px;
+        margin:10px 50px 10px 50px;
+        padding:10px;
+        border: dotted grey 2px;
+        border-radius: 50px;
+    }
+    .form{
+        width:600px;
+       
+        padding: 20px;
+        margin:10px 75px 20px 35px;
+       
+    }
+    
+  
+}
+@media screen and (max-width:640px)
+{
+    .BDH{
+        font-size: 25px;
+        color:black;
+        float: left;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPk19tCcHAd95g062KH9MWmxTFUeTja9IrbjRz5flryD64r8HfVw");
+        border:dotted  black 2px;
+        border-radius: 50px;
+        margin: 10px;
+        padding: 10px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    
+        
+    
+    .pbody{
+        overflow: auto;
+        position: relative;
+        border: dashed grey 2px;
+        margin:10px 50px 10px 50px;
+        padding: 20px;
+        background-color: blanchedalmond;
+        border-radius: 50px;
+        height:600px;
+       
+    
+    }
+    .top{
+        background-color:seashell;
+        height: 150px;
+        margin:5px 50px 5px 50px;
+        padding:20px;
+        border: dotted grey 2px;
+        border-radius: 50px;
+    }
+    .Pfolio{
+        position: relative;
+        left: 120px;
+        font-style: oblique ;
+        text-decoration-line: underline;
+    }
+    .form{
+        width:450px;
+        
+        padding: 20px;
+        margin:10px 75px 20px 30px;
+        
+        
+    
+    }
+    
+
+}
+
